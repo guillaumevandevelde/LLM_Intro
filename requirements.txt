@@ -12,7 +12,9 @@ colorama==0.4.6
 dataclasses-json==0.5.14
 deeplake==3.9.0
 dill==0.3.8
+filelock==3.13.4
 frozenlist==1.4.1
+fsspec==2024.3.1
 google-api-core==2.18.0
 google-api-python-client==2.125.0
 google-auth==2.29.0
@@ -21,6 +23,7 @@ googleapis-common-protos==1.63.0
 greenlet==3.0.3
 h11==0.14.0
 httplib2==0.22.0
+huggingface-hub==0.22.2
 humbug==0.3.2
 idna==3.6
 jmespath==1.0.1

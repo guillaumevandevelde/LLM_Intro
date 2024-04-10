@@ -15,7 +15,7 @@ search = GoogleSearchAPIWrapper()
 
 prompt = PromptTemplate(
     input_variables=["query"],
-    template="Beschrijf altijd in het Nederlands, spreek de gebruiker aan met Beste burger,: {query}"
+    template="Antwoord altijd in het Nederlands, spreek de gebruiker aan met Beste burger,: {query}"
 )
 
 translate_chain = LLMChain(llm=llm, prompt=prompt)
@@ -38,7 +38,7 @@ agent = initialize_agent(
     llm, 
     agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, 
     verbose=True,
-    max_iterations=10)
+    max_iterations=6)
 
-response = agent("Is het adres van het stadshuis nog steeds botermakerstraat 69?")
+response = agent("Wat is district09?")
 print(response['output'])

@@ -10,6 +10,7 @@ Based on this course : https://learn.activeloop.ai/courses/langchain
 - OpenAI API Key : https://openai.com/
 - ActiveLoop API Key : https://www.activeloop.ai/
 - Google API Key & CSE ID : https://python.langchain.com/docs/modules/agents/tools/integrations/google_search
+- Hugging Face Access token : https://huggingface.co/settings/tokens
 
 
 # Setup
